@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   overflow: hidden;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.svg{
+    margin-top: -1.8rem;
+}
+input{
+    margin-bottom: 0.8rem;
+}
+
+.nome{
+    width:13rem;
+    height: 1.6rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.altura, .peso{
+    width: 5rem;
+    height: 2rem ;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    
+}
+
+.calcular{
+    width: 9rem;
+    height: 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #0099FF;
+    color: #FFF;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
