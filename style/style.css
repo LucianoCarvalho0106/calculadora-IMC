@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -17,6 +18,7 @@ body{
 main{
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
 }
 
 .svg{
@@ -24,6 +26,7 @@ main{
 }
 input{
     margin-bottom: 0.8rem;
+    margin-top: 1.7rem;
 }
 
 .nome{
@@ -61,3 +64,4 @@ input{
     flex-direction: column;
     align-items: center;
 }
+
