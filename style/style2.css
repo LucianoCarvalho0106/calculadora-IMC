@@ -35,13 +35,21 @@ body{
 
 
 .campo{
-    height: 8rem;
+    height: 12rem;
     width: 20rem;
     border-radius: 15px;
     background-color: #C9EAFF;
+    margin-bottom: 1rem;
 }
 
 img{
-    margin-right: calc(100% - 35%);
+  
     margin-top: 2rem;
+    position: absolute;
+    bottom: 80vh;
+    left: 7vw;
+}
+
+/*.img{
+    position: relative;
 }
