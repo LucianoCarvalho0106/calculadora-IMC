@@ -46,7 +46,10 @@ img{
   
     margin-top: 2rem;
     position: absolute;
-    bottom: 75vh;
-    left: 37vw;
+    bottom: 80vh;
+    left: 10vw;
 }
 
+#pcampo{
+    color: black;
+}
