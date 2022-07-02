@@ -35,11 +35,15 @@ body{
 
 
 .campo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     height: 12rem;
     width: 20rem;
     border-radius: 15px;
     background-color: #C9EAFF;
     margin-bottom: 1rem;
+    
 }
 
 img{
@@ -52,4 +56,26 @@ img{
 
 #pcampo{
     color: black;
+   
 }
+
+.campo p{
+    margin-top: 2rem;
+   
+}
+
+#texto{
+    
+    font-size: 1.7rem;
+    margin-bottom: 3rem ;
+}
+
+#pcampo{
+    display: inline-block;
+    margin-top: -4rem;
+    margin-left: 13%;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
